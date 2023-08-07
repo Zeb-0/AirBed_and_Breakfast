@@ -18,3 +18,47 @@ Attempting to create a clone of [AirBnB website](https://www.airbnb.com/).
 - [Python test cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)
 - [cmd module wiki page](https://wiki.python.org/moin/CmdModule)
 - [python unittest](https://realpython.com/python-testing/)
+
+### Execution:
+The shell is supposed to work as shown below in **Interactive mode**
+```
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
+```
+
+In **Non-Interactive mode**:
+
+```
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+```
+
+**Run all Tests in non-interactive mode using:**
+
+`$ echo "python3 -m unittest discover tests" | bash`
