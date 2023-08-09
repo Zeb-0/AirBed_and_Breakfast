@@ -62,3 +62,9 @@ $
 **Run all Tests in non-interactive mode using:**
 
 `$ echo "python3 -m unittest discover tests" | bash`
+
+---
+
+# DAY 21 - 100-Days_of_Code
+
+#### Tried writing unittests for AirBnB project and i can cinfidently say i am so fucked.
