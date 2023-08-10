@@ -7,8 +7,8 @@ import sys
 import os
 from io import StringIO
 from unittest.mock import create_autospec
-from console import HBNBCommand
-from models import storage
+# from console import HBNBCommand
+# from models import storage
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
